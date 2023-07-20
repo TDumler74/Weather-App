@@ -1,0 +1,39 @@
+.container{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#weather-card{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 50px;
+    font-size: x-large;
+   
+
+}
+.box{
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(129, 221, 246);
+    background: linear-gradient(to top,#451ef2, #f4f3ed);
+    box-shadow: 15px 15px 20px rgb(196, 180, 180);
+    width: 300px;
+    height: 400px;
+    
+}
+.city{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description{
+   
+    font-size:large;
+    font-style: oblique;
+}
+
